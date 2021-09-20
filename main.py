@@ -34,7 +34,7 @@ st.map(map_data)
 
 
 option = st.sidebar.selectbox(
-    'Which number do you like best?',
+    'Which data would you like to see?',
      df['first column'])
 
 'You selected:', option
@@ -45,7 +45,7 @@ if pressed:
   right_column.write("Now, for something completely different...")
 
 expander = st.expander("Comment")
-expander.write("Here you could put in some really, really long explanations...")
+expander.write("This service uses the API function of e-Stat, but the content of the service is not guaranteed by the government.")
 
 
 #copyright
